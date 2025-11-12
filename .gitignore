@@ -1,0 +1,35 @@
+# GCS credentials
+*.json
+!.env.example
+
+# Environment files with secrets
+.env
+training.env
+
+# Training output
+output/
+training_output/
+
+# Docker volumes
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
